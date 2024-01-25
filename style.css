@@ -1,0 +1,53 @@
+
+h1{
+    font-size: 6rem;
+    font-weight: bolder;
+    text-align: center;
+}
+
+
+#still{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-image: url(./race.PNG);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: white;
+    
+}
+#running{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-image: url(./run\ mario.gif);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: white;
+}
+
+.buttons{
+    width: 40%;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 3rem;
+}
+button{
+    height: 3rem;
+    width: 6rem;
+    border-radius: 1.5rem;
+    background-color: violet;
+    border: 2px solid rgb(224, 243, 82);
+    font-size: 1.5rem;
+}
+
+button:hover{
+    transform: scale(1.2);
+    transition-duration: 0.2s;
+}
